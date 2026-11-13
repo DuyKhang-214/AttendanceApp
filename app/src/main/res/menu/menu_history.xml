@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- SubMenu: Sắp xếp -->
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/ic_sort"
+        android:title="@string/action_sort"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group
+                android:id="@+id/group_sort"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sort_newest"
+                    android:title="@string/sort_newest" />
+                <item
+                    android:id="@+id/sort_oldest"
+                    android:title="@string/sort_oldest" />
+                <item
+                    android:id="@+id/sort_name"
+                    android:title="@string/sort_name" />
+            </group>
+        </menu>
+    </item>
+
+    <!-- SubMenu: Xuất dữ liệu -->
+    <item
+        android:id="@+id/action_export"
+        android:icon="@drawable/ic_export"
+        android:title="@string/action_export"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/export_csv"
+                android:title="@string/export_csv" />
+            <item
+                android:id="@+id/export_text"
+                android:title="@string/export_text" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_delete_all"
+        android:title="@string/action_delete_all"
+        app:showAsAction="never" />
+</menu>

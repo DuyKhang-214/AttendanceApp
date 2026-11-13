@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ctx_edit"
+        android:title="@string/ctx_edit" />
+    <item
+        android:id="@+id/ctx_call"
+        android:title="@string/ctx_call" />
+    <item
+        android:id="@+id/ctx_email"
+        android:title="@string/ctx_email" />
+    <item
+        android:id="@+id/ctx_delete_student"
+        android:title="@string/ctx_delete" />
+</menu>

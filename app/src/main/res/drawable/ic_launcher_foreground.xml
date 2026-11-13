@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Khung quét 4 góc -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,30h14v4h-10v10h-4zM64,30h14v14h-4v-10h-10zM30,64h4v10h10v4h-14zM74,64h4v14h-14v-4h10z" />
+    <!-- Mã vạch -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,40h3v28h-3zM44,40h2v28h-2zM49,40h5v28h-5zM57,40h2v28h-2zM62,40h3v28h-3zM68,40h2v28h-2z" />
+    <!-- Dấu tick -->
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M66,60m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60.5,60.5l1.8,-1.8 3,3 5.2,-5.2 1.8,1.8 -7,7z" />
+</vector>

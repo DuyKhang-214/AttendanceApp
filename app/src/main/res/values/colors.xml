@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Thương hiệu -->
+    <color name="primary">#4F46E5</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_light">#E8E9FF</color>
+    <color name="gradient_start">#4338CA</color>
+    <color name="gradient_end">#7C3AED</color>
+    <color name="accent">#F59E0B</color>
+
+    <!-- Nền / bề mặt -->
+    <color name="bg">#F4F6FB</color>
+    <color name="card">#FFFFFF</color>
+    <color name="stroke">#E4E7EE</color>
+    <color name="text_primary">#111827</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_hint">#9CA3AF</color>
+
+    <!-- Trạng thái -->
+    <color name="success">#15803D</color>
+    <color name="success_bg">#DCFCE7</color>
+    <color name="warning">#B45309</color>
+    <color name="warning_bg">#FEF3C7</color>
+    <color name="info">#0369A1</color>
+    <color name="info_bg">#E0F2FE</color>
+    <color name="error">#DC2626</color>
+    <color name="error_bg">#FEE2E2</color>
+
+    <color name="scrim_dark">#99000000</color>
+    <color name="scan_idle">#FFFFFF</color>
+    <color name="scan_success">#22C55E</color>
+    <color name="scan_duplicate">#F59E0B</color>
+</resources>
